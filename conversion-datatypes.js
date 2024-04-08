@@ -50,7 +50,58 @@ let undefnum = Number(score)
 
 score = null
 let stringnull = String(score)
-console.log(stringnull);
+// console.log(stringnull);
+
+
+
+let numNull = Number(score)
+// console.log(numNull);
+
+
+let bolNull =Boolean(score)
+// console.log(bolNull);
+// console.log(typeof bolNull);
+
+
+
+// number and string to null and undefined
+
+
+
+score = 33;
+let nullNum = (score)
+// console.log(nullNum);
+
+
+
+                             // =============  operations  ==============//
+
+let value =10
+let negValue = -value
+// console.log(negValue);
+
+
+
+
+
+// =====comparison
+
+// console.log(2>1);
+
+
+
+// here the string is converted into number by js itself
+// console.log("2 " == 2);  //true
+
+
+
+// now if we chec it with (===) it will give us false bcz the (===) do strict check mean it does not convert the data type means it check for datatype also if both are not same datatypes than it gives us false
+// console.log("2" === 2);  //false
+
+
+
+
+
 
 
 
